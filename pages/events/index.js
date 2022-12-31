@@ -14,8 +14,9 @@ export default function EventsPage({ events }) {
     {events.map((evt) => (
       <EventItem key={evt.id} evt={evt} />
     ))}
-    </Layout>
 
+    
+    </Layout>
   )
 }
 
